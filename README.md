@@ -3,8 +3,8 @@
 # 项目名： 一封有声音的信   
 一分钟语音留言，记录当下，以文，以乐。 
 > PRD 价值主张设计（目标：多层次多长度版本）
-> 1. 一句话版本<br>有声信运用百度AI（讯飞）的人工智能语音识别技术，用户需输入1分钟的语音，有声信可以将语音转换为文字并排版为信的格式，最后将语音与文字相结合输出一封有声音的信，支持图文编辑，同时辅以交互的UI设计，最大程度的保留故事与模拟时间给书信带来的痕迹(发黄、变旧)。  
-> 2. 一分钟60s版本 (图文线上可阅读含可查连结)<br>
+> 1. 一句话版本<br>有声信运用讯飞AI的人工智能语音识别技术，用户需输入1分钟的语音，语音识别后排版为信的格式，最后将语音与文字相结合输出一封有声音的信，支持图文编辑，同时辅以交互的UI设计，最大程度的保留故事与模拟时间给书信带来的痕迹(发黄、变旧)。  
+> 2. 一分钟60s版本 (图文线上可阅读含可查连结)<br>有声信可以从一定程度上取代书信的留念价值。有声信运用讯飞AI的人工智能语音识别技术，用户需输入1分钟的语音，有声信可以将语音转换为文字并排版为信的格式，最后将语音与文字相结合输出一封有声音的信，支持图文编辑，同时辅以交互的UI设计，最大程度的保留故事与模拟时间给书信带来的痕迹(发黄、变旧)。不需要传统的书写，只需语音输入，以界面的变化与录音者的声音取代书信的留念价值。
 > 3. 400 秒版本 Pecha Kucha 20x20 版本 (线上投影片含可查连结)<br>
 
 
@@ -124,28 +124,30 @@ AI概率性考量：使用人工智能的加值的表述是否纳入判断有错
 
 ### 原型1.交互及界面设计    
 这是进入有声信APP的首界面。   
-![首界面](https://upload-images.jianshu.io/upload_images/11043770-7523bb020a201ca7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)    
+![首界面](https://upload-images.jianshu.io/upload_images/11043770-7523bb020a201ca7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)    <br><br>
 
-运用人工智能语音识别技术，将音频转为文字，同时有录音与保存音频的功能，在查看信界面可边看文字与边听音频。   
-![语音识别加值1](https://upload-images.jianshu.io/upload_images/11043770-0ffcc65ef86b3f89.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)   
+运用人工智能语音识别技术，将音频转为文字，同时有录音与保存音频的功能，在查看信界面可边看文字与边听音频。   <br>
+![语音识别加值1](https://upload-images.jianshu.io/upload_images/11043770-0ffcc65ef86b3f89.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)   <br><br>
 
-可保存为文档，可打印，旁边附上二维码，使用APP内附扫码工具，扫描二维码即可跳转到语音输入后生成的页面，可以边听边看的信。    
-![语音识别加值2.png](https://upload-images.jianshu.io/upload_images/11043770-8a879c1329eee2b4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)   
+可保存为文档，可打印，旁边附上二维码，使用APP内附扫码工具，扫描二维码即可跳转到语音输入后生成的页面，可以边听边看的信。    <br>
+![语音识别加值2.png](https://upload-images.jianshu.io/upload_images/11043770-8a879c1329eee2b4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)   <br><br>
 
-随着时间流逝，查看信的界面会发生变化，变黄、变旧。
-![交互的界面](https://upload-images.jianshu.io/upload_images/11043770-afdfda5d2b59faa9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+随着时间流逝，查看信的界面会发生变化，变黄、变旧。<br>
+![交互的界面](https://upload-images.jianshu.io/upload_images/11043770-afdfda5d2b59faa9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)<br><br>
 
 
 交互及界面设计：在PRD文件中是否有说明且原型是否有做到：交互及界面设计的某个核心交互环节使用了人工智能的加值
 
 ### 原型2.信息设计 
-![产品逻辑.png](https://upload-images.jianshu.io/upload_images/11043770-1864ad0da0d9072c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+#### 产品架构图   
+![产品架构图.png](https://upload-images.jianshu.io/upload_images/11043770-3b6fc257957c7a94.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)<br><br>
 
-可导出信为不同格式的文档，可打印，旁边附上二维码。
-![导出为文档](https://upload-images.jianshu.io/upload_images/11043770-4cdc9720d0b229fa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-可设置有声信APP界面样式，满足用户不同的审美需求。
-![设置界面颜色](https://upload-images.jianshu.io/upload_images/11043770-80348eae8cc2ef2d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+可导出信为不同格式的文档，可打印，旁边附上二维码。<br>
+![导出为文档](https://upload-images.jianshu.io/upload_images/11043770-4cdc9720d0b229fa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)<br><br>
+
+可设置有声信APP界面样式，满足用户不同的审美需求。<br>
+![设置界面颜色](https://upload-images.jianshu.io/upload_images/11043770-80348eae8cc2ef2d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)<br><br>
    
 信息设计：在PRD文件中是否有说明且原型是否有做到：信息设计的某个核心信息或设计使用了人工智能的加值
 
@@ -206,14 +208,8 @@ client.asr(get_file_content('16k.pcm'), 'pcm', 16000, {
  'sn': '726787071901577104272'}
 ```
 讯飞AI语音听写：   
-![讯飞语音听写](https://upload-images.jianshu.io/upload_images/11043770-9581753eb4f7bbe0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![讯飞语音听写](https://upload-images.jianshu.io/upload_images/11043770-9581753eb4f7bbe0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)   <br><br>
 
-输入：
-```
-```
-输出：
-```
-```
 游戏化设计：（暂时不做）   
 自然语言处理
 语音识别将1min的语音转换为文字，再通过自然语言处理的词法分析将文字内容进行分词、词性标注、命名实体识别。将返回的结果用pyecharts绘制出文字云。（形容词）。我查看了百度AI所有的自然语言处理API，其中最适合与能达到功能需求的是词法分析。   
